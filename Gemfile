@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc5'
+gem 'rails', '5.2.6.2'
 
 gem 'sqlite3'
 
 # Asset template engines
-gem 'sass-rails', "~> 3.1.0.rc"
+gem 'sass-rails', '~> 5.0.5.0'
 gem 'coffee-script'
 gem 'uglifier'
 
@@ -17,8 +17,8 @@ gem "rest-client", "~>1.6.1", :require => "restclient"
 
 # extra stuff
 gem "haml", ">= 3.0.0"
-gem "haml-rails"
-gem "jquery-rails"
+gem "haml-rails", ">= 0.5.3"
+gem "jquery-rails", ">= 4.0.1"
 
 gem 'paperclip'
 gem "simple_form", "~> 1.2.2"
@@ -30,7 +30,7 @@ gem "sluggable"
 
 
 group :development, :test do
- gem 'rspec-rails'
+ gem 'rspec-rails', '>= 2.8.0'
  gem 'fixjour'
 end
 
